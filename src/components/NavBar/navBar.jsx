@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import "./navbar.css"
 import logoAmassa2 from "./amassa2Logo.png";
-import CartWidget from '../CartWidget/CartWidget';
+import CartWidget from '../CartWidget/cartWidget';
 import { Link } from 'react-router-dom';
 import { CartContext } from '../../context/CartContext';
 
