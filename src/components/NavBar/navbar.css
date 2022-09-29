@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+.bg-amassa2{
+    background-color: #e3bc91;
+}
+
+.fontsBaloo{
+    font-family: 'Baloo 2', cursive;
+}
+
+.navBarLogo{
+    height: 3.5rem;
+    border-radius:5rem;    
+    margin-left: 10px;
+    transition: all 1s;
+    border: white solid;
+}
+
+.navBarLogo:hover{
+    transform: translate(0.5rem);
+}
+
+.enlaceCategorias{
+    text-decoration: none;
+    
+}
