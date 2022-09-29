@@ -6,26 +6,26 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 import { CartProvider } from './context/CartContext';
 import Cart from './components/Cart/Cart';
 import CheckOut from './components/CheckOut/CheckOut';
-import NavBar from './components/NavBar/NavBar';
+import NavBar from './components/NavBar/navBar';
 
 
 function App() {
   return (
-    
+
     <div className="App ">
       <CartProvider>
         <BrowserRouter>
-          <NavBar/>
+          <NavBar />
           <Routes>
-            <Route path="/" element={<ItemListContainer/>}/> 
-            <Route path="/item/:id" element={<ItemDetailContainer/>}/>     
-            <Route path="/categoria/:categoria" element={<ItemListContainer/>}/>    
-            <Route path="/cart" element={<Cart/>}/>
-            <Route path="/checkout" element={<CheckOut></CheckOut>}/>
+            <Route path="/" element={<ItemListContainer />} />
+            <Route path="/item/:id" element={<ItemDetailContainer />} />
+            <Route path="/categoria/:categoria" element={<ItemListContainer />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/checkout" element={<CheckOut></CheckOut>} />
           </Routes>
         </BrowserRouter>
-      </CartProvider> 
-    </div>   
+      </CartProvider>
+    </div>
   );
 }
 
